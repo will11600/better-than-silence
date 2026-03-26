@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "betterthansilence",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "Better Than Silence",
+	"description": "Adds environmental ambience based on the player's surroundings.",
 	"authors": [
-		"Turnip Labs"
+		"William Brocklesby"
 	],
 	"contact": {
 		"homepage": "",
@@ -16,20 +16,20 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"turniplabs.examplemod.ExampleMod"
+			"wb.betterthansilence.SoundRepository"
 		],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"wb.betterthansilence.SoundRepository"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"wb.betterthansilence.SoundRepository"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"wb.betterthansilence.SoundRepository"
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+		"betterthansilence.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
